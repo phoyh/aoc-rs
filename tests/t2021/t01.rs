@@ -1,4 +1,4 @@
-use aoc_rust::api;
+use aoc_rs::api;
 
 fn get_depth_list() -> Vec<i32> {
 	api::parse::to_lines("2021/01.txt")

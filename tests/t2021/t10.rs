@@ -1,4 +1,4 @@
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 use itertools::Itertools;
 
 fn get_stack_and_error(line: &str) -> (Vec<char>,Option<char>) {

@@ -1,4 +1,4 @@
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 use std::collections::HashMap;
 
 type PointMap = HashMap<(i32,i32),i32>;

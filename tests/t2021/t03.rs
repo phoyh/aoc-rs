@@ -1,4 +1,4 @@
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 
 fn bin_to_int(s: &String) -> u64 {
 	u64::from_str_radix(s.as_str(), 2).unwrap()

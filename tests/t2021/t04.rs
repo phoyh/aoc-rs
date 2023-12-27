@@ -1,6 +1,6 @@
 use std::vec;
 
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 use itertools::Itertools;
 
 #[derive(Debug)]

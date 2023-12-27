@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 
 fn get_fish_num_after(days: usize) -> u64 {
 	let mut dist = HashMap::new();

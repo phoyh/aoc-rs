@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use aoc_rust::api::parse;
+use aoc_rs::api::parse;
 use itertools::Itertools;
 
 fn get_permutations() -> Vec<HashMap<char,char>> {

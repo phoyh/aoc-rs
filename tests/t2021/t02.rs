@@ -1,4 +1,4 @@
-use aoc_rust::api;
+use aoc_rs::api;
 
 trait CommandExec {
 	fn down(&mut self, param: i32);
